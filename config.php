@@ -11,7 +11,8 @@ function config($key = '')
         'name' => 'Simple PHP Website',
         'nav_menu' => [
             '' => 'Home',
-            'about-us' => 'About',
+            'dbapp' => 'DB App'
+			'about-us' => 'About',
             'products' => 'Products',
             'contact' => 'Contact',
         ],
@@ -24,8 +25,7 @@ function config($key = '')
     return isset($config[$key]) ? $config[$key] : null;
 }
 
-/* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
+/* Database connection parameters*/
 define('DB_SERVER', 'aa12a662qredpjn.czvw0awnaj4a.us-east-1.rds.amazonaws.com:3306');
 define('DB_USERNAME', 'bobodell');
 define('DB_PASSWORD', 'CSrds01!');
