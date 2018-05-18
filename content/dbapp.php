@@ -34,8 +34,8 @@
                         <a href="create.php" class="btn btn-success pull-right">Add New Employee</a>
                     </div>
                     <?php
-                    // Include config file
-                    require_once 'config.php';
+                    // Include db connection file
+                    require_once 'dbconnect.php';
                     
                     // Attempt select query execution
                     $sql = "SELECT * FROM employees";
