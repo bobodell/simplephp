@@ -1,6 +1,6 @@
 <?php
-// Include config file
-require_once 'config.php';
+// Include dbconnect file
+require_once 'dbconnect.php';
  
 // Define variables and initialize with empty values
 $name = $address = $salary = "";
